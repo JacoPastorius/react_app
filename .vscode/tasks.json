@@ -4,9 +4,9 @@
 		{
 			"type": "npm",
 			"script": "start",
-			"path": "myapp",
+			"path": "app",
 			"problemMatcher": [],
-			"label": "npm: start - myapp",
+			"label": "npm: start - app",
 			"detail": "react-scripts start"
 		}
 	]

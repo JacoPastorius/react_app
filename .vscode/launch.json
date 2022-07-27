@@ -8,10 +8,10 @@
         {
             "type": "chrome",
             "request": "launch",
-            "preLaunchTask": "npm: start - myapp",
+            "preLaunchTask": "npm: start - app",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}/myapp",
+            "webRoot": "${workspaceFolder}/app",
             "sourceMapPathOverrides": {
                 "webpack:///myapp/~/*": "${webRoot}/*",
             }
