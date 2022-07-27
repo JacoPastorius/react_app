@@ -18,7 +18,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    // 暗黙のany型をエラーにしない
+    "noImplicitAny": false
   },
   "include": [
     "src"
